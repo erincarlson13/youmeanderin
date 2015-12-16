@@ -20,9 +20,10 @@ h2 {
 }
 
 h3{
-	font-family: "HelveticaNeue-Regular", Arial;
+	font-family: "HelveticaNeue-Medium", Arial;
 	padding-top:1%;
 	font-size:1.2em;
+	color: black;
 }
 
 h4 {
@@ -37,11 +38,32 @@ h5 {
 
 p {
 	font-size: 1.1em;
+	font-family: "HelveticaNeue-Thin", Arial;
 }
 
 li {
 	font-size: 1.1em;
 	padding-left: 2%;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1DC497;
+}
+
+
+
+.jumbotron{
+	padding:0%;
+}
+
+.navbar{
+	padding-bottom: 0%;
+	margin-bottom: 0%;
 }
 
 .navbar-header .navbar-brand{
@@ -62,54 +84,14 @@ li {
 }
 
 
+.row{
+	padding-bottom: 4%;
+}
 
-/*.navbar.navbar-default{
-	text-decoration: none;
-	width: 100%;
-	border-radius: 0px;
-	opacity: 1;
-	background: white;
-}*/
+.container{
+	padding-top: 5%;
 
-
- /*.navbar.navbar-default a:link{
-	text-decoration: none;
-	color: gray;
-}*/
-
-/*.navbar.navbar-default a:hover{
-	text-decoration: none;
-	color: gray;
-	font-weight: bold;
-}*/
-
-/*.navbar.navbar-default p:active a{
-	text-decoration: none;
-	color: teal;
-	font-weight: bold;
-}*/
-
-
-/*.navbar.navbar-default > p.active > a{
-	text-decoration: none;
-	font-weight:bold;
-}*/
-
-
-/*.navbar.navbar-default a:link{
-	text-decoration: none;
-	color: gray;
-}*/
-
-/*.navbar.navbar-default a:hover{
-	text-decoration: none;
-	color: gray;
-	font-weight: bold;
-}*/
-
-
-
-
+}
 
 
 
