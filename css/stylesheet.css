@@ -55,7 +55,31 @@ a:hover {
 	color: #1DC497;
 }
 
+.footer {
+	background-color: black;
+}
 
+.footer-nav li{
+	padding:5px;
+	list-style: none;
+	color:#1DC497;
+
+}
+
+.footer-nav li h3{
+	list-style: none;
+	color:#1DC497;
+
+}
+
+.footer-nav ul{
+	list-style:none;
+}
+
+
+.footer-nav a{
+	color:#1DC497;
+}
 
 .jumbotron{
 	padding:0%;
