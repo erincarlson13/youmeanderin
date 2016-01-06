@@ -88,17 +88,18 @@ a:hover {
 .navbar{
 	padding-bottom: 0%;
 	margin-bottom: 0%;
+	background-color: black;
 }
 
 .navbar-header .navbar-brand{
-	color:black;
-	font-family: Palatino Linotype;
+	color:#f2f2f2;
+	font-family: cursive;
 }
 
 .navbar-default .navbar-text a{
 	text-decoration: none;
-	color: gray;
-	font-family: "HelveticaNeue-Regular", Arial;
+	color: #f2f2f2;
+	font-family: "HelveticaNeue-Light", Arial;
 }
 
 .navbar-default .navbar-text {
